@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: portoseguro-demo
+  host: portoseguro-demo
+  disk_quota: 1024M
+  services:
+  - portoseguro-demo-cloudantNoSQLDB
+  - Text to Speech-ce
+  - Conversation-yi
